@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#bg {
+    background-image: url('pexels-felixmittermeier-956999.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu {
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    margin-left: 20%;
+    display: flex;
+}
+
+#menu i {
+    font-size: 35px;
+    color: pink;
+    padding-left: 17px;
+    padding-top: 5px;
+}
+
+#menu h3{
+    font-size: 30px;
+    color: blueviolet;
+    margin-top: 0px;
+    text-transform: uppercase;
+    padding-left: 35px;
+    padding-top: 3px;
+    font-family: Anton SC;
+}
+
+.hello {
+    font-size: 35px;
+    font-family: Prompt;
+    color: rgb(186, 2, 131);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 0px;
+}
+
+.topname {
+    font-size: 80px;
+    font-family: Prompt;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    word-spacing: 25px;
+}
+.red {
+    color: rgb(255, 25, 0);
+    text-shadow: 3px 1px 1px black;
+}
+
+.break {
+    display: block;
+    margin-top: -35px;
+    color: gold;
+    text-shadow: 3px 1px 1px black;
+}
+
+.dev {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    word-spacing: 15px;
+}
+
+.andgap {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#btn1 {
+    color: white;
+    height: 60px;
+    width: 250px;
+    background-color: transparent;
+    border: 3px solid grey;
+    border-radius: 0px;
+    font-size: 20px;
+    margin-left: 42%;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: Prompt;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    transition: all 1s ease-in-out;
+    border-color: rgb(11, 175, 235);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#icons {
+    font-size: 38px;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.ri-facebook-circle-fill {
+    color: white;
+}
+.ri-facebook-circle-fill:hover {
+    color: salmon;
+    transition: all 1s ease-in-out;
+}
+.ri-youtube-fill {
+    color: white;
+}
+.ri-youtube-fill:hover {
+    color: rgb(11, 200, 65);
+    transition: all 1s ease-in-out;
+}
+
+.ri-instagram-fill {
+    color: white;
+}
+.ri-instagram-fill:hover {
+    transition: all 1s ease-in-out;
+    color: rgb(238, 195, 0);
+
+}
+
+#about{
+    text-align: center;
+    font-family: Prompt;
+    font-size: 30px;
+    margin-top: 55px;
+    text-transform: uppercase;
+    color: crimson;
+}
+
+#let {
+    text-align: center;
+    font-family: Prompt;
+    font-size: 33px;
+}
+
+.logo {
+    margin-top: 3%;
+    display: flex;
+
+}
+.logo img{
+    height: 100px;
+    margin-left: 20%;
+}
+
+.bio {
+    font-size: 20px;
+    color: rgb(81, 77, 77);
+    margin-left: 3%;
+    word-spacing: 6px;
+    font-family: Poppins;
+}
+
+.gaped {
+    display: block;
+    font-weight: 200px;
+}
+
+#profileskills {
+    display: flex;
+    margin-top: 50px;
+}
+
+.profile {
+    margin-left: 25%;
+}
+
+.profileask {
+    font-family: Poppins;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.ask {
+    font-family: Poppins;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.given {
+    color: grey;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-bottom: 15px;
+}
+
+.skillssection{
+    margin-left: 7%;
+}
+
+.skills{
+    font-family: Poppins;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.java {
+    font-family: Poppins;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
